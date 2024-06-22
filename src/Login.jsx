@@ -38,7 +38,7 @@ const Login = ({ onLogin }) => {
 
   return (
     <div className="container">
-      <img src="src/assets/cropped-iconoweb.png" alt="Logo" />
+      <img src="/assets/cropped-iconoweb.png" alt="Logo" />
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label>Usuario:</label>
