@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .home-container {
+    padding: 100px;
+  }
+  
+  .home-header {
+    background-color: #bb1919;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .home-nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .home-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .home-nav a {
+    margin-right: 10px; /* Add horizontal spacing */
+  }
+  
+  .home-nav a:last-child { /* Remove margin for the last link */
+    margin-right: 0;
+  }
+  
+  
+  .featured-article {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .other-articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  
